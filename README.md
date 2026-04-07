@@ -1,5 +1,5 @@
 # Домашнее задание к лекции «Object, Reflection и Proxy»
-
+[![NodeJS with Webpack](https://github.com/Elen87/Object-Reflection-Proxy-1/actions/workflows/webpack.yml/badge.svg)](https://github.com/Elen87/Object-Reflection-Proxy-1/actions/workflows/webpack.yml)
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
 
 **Важно**: код должен проходить ESLint без ошибок
