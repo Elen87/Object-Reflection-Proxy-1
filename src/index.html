@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>orderByProps - сортировка свойств объекта</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+        }
+        pre {
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+        }
+        code {
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>orderByProps() - сортировка свойств объекта</h1>
+    <p>Откройте консоль браузера (F12), чтобы увидеть результаты работы функции.</p>
+    <h2>Функция orderByProps(obj, order)</h2>
+    <pre><code>
+// Пример использования:
+const obj = {name: 'мечник', health: 10, level: 2, attack: 80, defence: 40};
+const result = orderByProps(obj, ['name', 'level']);
+
+// Результат:
+[
+  {key: "name", value: "мечник"},
+  {key: "level", value: 2},
+  {key: "attack", value: 80},
+  {key: "defence", value: 40},
+  {key: "health", value: 10}
+]
+    </code></pre>
+</body>
+</html>
